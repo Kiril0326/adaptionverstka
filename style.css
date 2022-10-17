@@ -1,0 +1,38 @@
+ div{
+    float:left;
+    height: 300px;
+ }
+ .div_1{
+    width: 50%;
+    background-color: blue;
+ }
+.div_2{
+    width: 50%;
+    background-color: rgb(191, 0, 1);
+}
+
+.container{
+    margin: 100px 100px 0 100px;
+}
+
+p{
+    font-family: 'Silkscreen', cursive;
+}
+
+@media only screen and (max-width:600px) {
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .div_1{
+        width: 50%;
+        background-color: rgb(145, 255, 0);
+        margin-bottom: 50px;
+     }
+    .div_2{
+        width: 50%;
+        background-color: rgb(21, 112, 97);
+    }
+}
